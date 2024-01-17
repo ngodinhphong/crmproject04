@@ -1,5 +1,7 @@
 Note
 
+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
+
 git status: Giúp kiểm tra trạng thái của các file trong project, xem file nào mới, filenaof là file đã chỉnh sửa.
 git add: Thêm file đã thay đổi hoặc chỉnh sửa vào danh sách chờ đẩy lên git
 	cú pháp: git add tên_file tên_file2
@@ -23,7 +25,11 @@ bước 4: git push origin tên_nhánh
 Lấy source từ git về máy
 git clone link git
 
-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
-=======
-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
->>>>>>> efbd29ba7145f7054172f1cbfc8f0f2b712d82c6
+1. Cả hai Dev A và B cùng sử dụng chung repo git (cùng nhánh)
+ - A tạo file mới và code, B tạo file mới và code => ai push code sau thì sẻ bị lỗi không push code lên được
+
+nhánh main/master/product: nhánh chứa source code của ứng dụng đang chạy thực tế cung cấp cho khách hàng.
+
+nhánh uat: nhánh chứa source code chứa các tính năng đã phát triển và chờ test
+
+nhánh dev: Chứa source code chứa các tính năng dev đang phát triển.
