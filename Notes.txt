@@ -8,6 +8,8 @@ git add: Thêm file đã thay đổi hoặc chỉnh sửa vào danh sách chờ 
 
 git commit: Kí xác nhận các file thay đổi đã add vào danh sách chờ
 git push origin: uploand toàn bộ file trong danh sách chờ đẩy lên server git
+git pull: Lấy filr mới hoặc thay đổi trên server
+git clone: Là downloand toàn bộ source trên server về máy
 
 Lưu ý: origin => đại diện cho git trên server
 
@@ -16,5 +18,8 @@ Bước 1: git status.
 Bước 2: git add
 Bước 3: git commit -m"nội dung commit"
 bước 4: git push origin tên_nhánh
+
+Lấy source từ git về máy
+git clone link git
 
 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
