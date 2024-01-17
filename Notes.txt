@@ -1,4 +1,4 @@
-
+Note
 
 git status: Giúp kiểm tra trạng thái của các file trong project, xem file nào mới, filenaof là file đã chỉnh sửa.
 git add: Thêm file đã thay đổi hoặc chỉnh sửa vào danh sách chờ đẩy lên git
@@ -19,7 +19,11 @@ Bước 2: git add
 Bước 3: git commit -m"nội dung commit"
 bước 4: git push origin tên_nhánh
 
+<<<<<<< HEAD
 Lấy source từ git về máy
 git clone link git
 
 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
+=======
+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
+>>>>>>> efbd29ba7145f7054172f1cbfc8f0f2b712d82c6
