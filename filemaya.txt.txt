@@ -1,1 +1,2 @@
 đây là nội dung máy a
+đây là file chỉnh sửa bởi máy b
